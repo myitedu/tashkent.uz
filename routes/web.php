@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/salom', 'PublicController@salom');
+Route::get('/news', 'PublicController@news');

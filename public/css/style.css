@@ -1,0 +1,40 @@
+/*
+Master CSS starts here
+ */
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7f5Dsc-_3agw3CZECur0s-WrYP0Gj-X6Q1Q&usqp=CAU");
+}
+/*
+Master CSS ends here
+ */
+
+/*
+salom.blade.php CSS starts here
+ */
+#mypagination{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.card-img-top{
+    width: 100%;
+    height: 150px;
+}
+#mycards{
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.carousel-inner{
+    border-top: 10px solid #340015;
+    border-bottom: 10px solid #340015;
+}
+.w-100{
+    width: 100%;
+    height: 420px;
+}
+/*
+salom.blade.php CSS ends here
+ */
