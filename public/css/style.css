@@ -23,7 +23,7 @@ salom.blade.php CSS starts here
 #mycards{
     text-align: center;
 }
-.card{
+.mycard{
     display: inline-block;
     margin-bottom: 20px;
 }
@@ -37,4 +37,14 @@ salom.blade.php CSS starts here
 }
 /*
 salom.blade.php CSS ends here
+ */
+/*
+News page CSS starts here
+ */
+.jumbotron{
+    border-top: 10px solid #075053;
+    border-bottom: 10px solid #075053;
+}
+/*
+News page CSS ends here
  */
