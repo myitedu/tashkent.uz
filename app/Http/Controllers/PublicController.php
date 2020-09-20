@@ -21,4 +21,10 @@ class PublicController extends Controller
 
         return view('news',compact('news_items'));
     }
+    public function post_comment(Request $request){
+        $parms = $request->input();
+        $your_comment = $parms['your_comment'];
+        return $your_comment;
+
+    }
 }

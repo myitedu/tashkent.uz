@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::get('/salom', 'PublicController@salom');
 Route::get('/news', 'PublicController@news');
+Route::post('/post_comment', 'PublicController@post_comment');

@@ -48,3 +48,13 @@ News page CSS starts here
 /*
 News page CSS ends here
  */
+.comments{
+    width: 100%;
+    text-align: center;
+}
+.comments textarea{
+    width: 40%;
+    height: auto;
+    min-height: 100px;
+    max-height: 300px;
+}
